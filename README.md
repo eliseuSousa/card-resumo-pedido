@@ -24,7 +24,6 @@ Ver os estados de foco para os elementos interativos
 
 ### Screenshot
 ![](./versao-desktop.png)
-![](./versao-mobile.png)
 
 ### Links
 - URL da solução: [github.com/eliseuSousa/card-resumo-pedido](https://github.com/eliseuSousa/card-resumo-pedido)
