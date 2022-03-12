@@ -1,0 +1,174 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Red Hat Display", sans-serif;
+}
+
+:root {
+  --pale-blue: hsl(225, 100%, 94%);
+  --pright-blue: hsl(245, 75%, 52%);
+  --very-pale-blue: hsl(225, 100%, 98%);
+  --desaturated-blue: hsl(224, 23%, 55%);
+  --dark-blue: hsl(223, 47%, 23%);
+  --blue-active: hsl(245, 83%, 68%);
+}
+
+body main {
+  background: url("../images/pattern-background-desktop.svg") no-repeat
+    var(--pale-blue);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  align-items: center;
+  background: #fff;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  overflow: hidden;
+}
+
+.card__ilustracao-principal {
+  width: 100%;
+}
+
+.card__conteudo {
+  display: flex;
+  flex-direction: column;
+  width: 85%;
+}
+
+.card__conteudo___titulo-principal {
+  color: var(--dark-blue);
+  font-weight: 900;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.card__conteudo___resumo {
+  color: var(--desaturated-blue);
+  font-weight: 500;
+  text-align: center;
+}
+/* 
+.card__conteudo___botao-principal {
+  color: #ffffff;
+  background: var(--pright-blue);
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 20px 15px var(--pale-blue);
+  font-size: 0.9rem;
+  font-weight: 700;
+  margin-bottom: 25px;
+  padding: 12px 0;
+  transition: all 0.3s;
+  width: 80%;
+}
+
+.card__conteudo___botao-principal:hover {
+  background: var(--blue-active);
+  cursor: pointer;
+}
+
+.cansel-order {
+  color: var(--desaturated-blue);
+  font-weight: 700;
+  font-size: 0.875rem;
+  margin-bottom: 40px;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+.cansel-order:hover {
+  color: var(--dark-blue);
+} */
+
+.card__conteudo___anual-plan {
+  background: var(--very-pale-blue);
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 12px 0 12px 0;
+  margin: 20px 0 20px 0;
+}
+
+.card__conteudo___anual-plan____description {
+  display: flex;
+}
+
+.text .titulo {
+  color: var(--dark-blue);
+  /* font-size: 0.875rem; */
+  font-weight: 900;
+}
+
+.text .price {
+  color: var(--desaturated-blue);
+  font-weight: 500;
+}
+
+.text {
+  max-width: 100px;
+  text-align: end;
+}
+
+/* .anual-plan {
+  align-items: center;
+  background: var(--very-pale-blue);
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 0 30px 0;
+  padding: 14px 20px 14px 20px;
+  width: 330px;
+}
+
+.anual-plan a {
+  color: var(--pright-blue);
+  font-size: 0.875rem;
+  font-weight: 700;
+  transition: all 0.3s;
+}
+
+.anual-plan a:hover {
+  color: var(--blue-active);
+  text-decoration: none;
+}
+
+.description {
+  display: flex;
+  align-items: center;
+}
+
+.description img {
+  margin-right: 12px;
+}
+
+
+
+.text {
+  display: flex;
+  flex-direction: column;
+}
+
+.text span {
+  font-weight: 500;
+} */
+/*
+@media screen and (max-width: 320px) {
+  body {
+    background: url("../images/pattern-background-mobile.svg") no-repeat;
+  }
+
+  .card,
+  .anual-plan {
+    width: 80%;
+  }
+} */
