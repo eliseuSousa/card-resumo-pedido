@@ -89,6 +89,12 @@ body main {
 .link {
   font-size: 0.75rem;
   font-weight: 700;
+  transition: all 0.3s;
+}
+
+.link:hover {
+  text-decoration: none;
+  color: var(--blue-active);
 }
 
 .card__conteudo___botao-principal {
