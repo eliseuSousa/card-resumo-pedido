@@ -29,7 +29,7 @@ body main {
   border-radius: 16px;
   display: flex;
   flex-direction: column;
-  width: 80%;
+  width: 300px;
   overflow: hidden;
 }
 
@@ -56,7 +56,6 @@ body main {
   font-weight: 500;
   text-align: center;
 }
-/* 
 .card__conteudo___botao-principal {
   color: #ffffff;
   background: var(--pright-blue);
@@ -68,23 +67,23 @@ body main {
   margin-bottom: 25px;
   padding: 12px 0;
   transition: all 0.3s;
-  width: 80%;
 }
 
-.card__conteudo___botao-principal:hover {
+/* .card__conteudo___botao-principal:hover {
   background: var(--blue-active);
   cursor: pointer;
-}
+} */
 
 .cansel-order {
   color: var(--desaturated-blue);
   font-weight: 700;
   font-size: 0.875rem;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
+  text-align: center;
   text-decoration: none;
   transition: all 0.3s;
 }
-
+/*
 .cansel-order:hover {
   color: var(--dark-blue);
 } */
@@ -122,57 +121,3 @@ body main {
   font-size: 0.75rem;
   font-weight: 700;
 }
-
-/* .anual-plan {
-  align-items: center;
-  background: var(--very-pale-blue);
-  border-radius: 5px;
-  display: flex;
-  justify-content: space-between;
-  margin: 15px 0 30px 0;
-  padding: 14px 20px 14px 20px;
-  width: 330px;
-}
-
-.anual-plan a {
-  color: var(--pright-blue);
-  font-size: 0.875rem;
-  font-weight: 700;
-  transition: all 0.3s;
-}
-
-.anual-plan a:hover {
-  color: var(--blue-active);
-  text-decoration: none;
-}
-
-.description {
-  display: flex;
-  align-items: center;
-}
-
-.description img {
-  margin-right: 12px;
-}
-
-
-
-.text {
-  display: flex;
-  flex-direction: column;
-}
-
-.text span {
-  font-weight: 500;
-} */
-/*
-@media screen and (max-width: 320px) {
-  body {
-    background: url("../images/pattern-background-mobile.svg") no-repeat;
-  }
-
-  .card,
-  .anual-plan {
-    width: 80%;
-  }
-} */
