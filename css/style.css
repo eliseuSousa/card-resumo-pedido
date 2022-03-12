@@ -103,9 +103,13 @@ body main {
   display: flex;
 }
 
+.text {
+  max-width: 100px;
+  margin-left: 8px;
+}
+
 .text .titulo {
   color: var(--dark-blue);
-  /* font-size: 0.875rem; */
   font-weight: 900;
 }
 
@@ -114,9 +118,9 @@ body main {
   font-weight: 500;
 }
 
-.text {
-  max-width: 100px;
-  text-align: end;
+.link {
+  font-size: 0.75rem;
+  font-weight: 700;
 }
 
 /* .anual-plan {
