@@ -8,7 +8,7 @@ Esta é uma solução para o [Desafio do cartão de resumo do pedido no Frontend
     - [Desafio](#desafio)
     - [Screenshot](#screenshot)
     - [Links](#links)
-    - [Desenvolvimento contínuo](#desenvolvimeto-continuo)
+    - [Desenvolvimento contínuo](#desenvolvimento-continuo)
 - [Meu processo](#meu-processo)
   - [Construído com](#construído-com)
 - [Autor](#autor)
